@@ -68,14 +68,14 @@ def main():
     cfg.MODEL.ROI_HEADS.NUM_CLASSES = 15
     cfg.MODEL.ROI_HEADS.SCORE_THRESH_TEST = 0.5
     #cfg.merge_from_file(model_zoo.get_config_file("COCO-Detection/faster_rcnn_R_101_FPN_3x.yaml"))
-    cfg.merge_from_file("/home/mmazzamuto/detectron2/tools/output/config.yaml")
+    cfg.merge_from_file("./detectron2/tools/output/config.yaml")
     
     cfg.MODEL.WEIGHTS = ("./output/model_final.pth")
       # set threshold for this model
     # Create predictor
     file_name = "13_6_tour_1819"
     predictor = DefaultPredictor(cfg)
-    im = cv2.imread("/home/mmazzamuto/Dataset/all_frames/"+file_name+".jpg")
+    im = cv2.imread("./Dataset/all_frames/"+file_name+".jpg")
     # Make prediction
 
     outputs = predictor(im)
