@@ -1,6 +1,10 @@
 # Weakly Supervised Attended Object Detection Using Gaze Data as Annotations
 This is the official repository of the paper Weakly Supervised Attended Object Detection Using Gaze Data as Annotations
 
+Paper link: https://arxiv.org/abs/2204.07090
+Site link: https://iplab.dmi.unict.it/WS_OBJ_DET/
+
+
 ![alt text](./full_metod.gif)
 
 ## (DIR) Detection(Fully-Supervised)
