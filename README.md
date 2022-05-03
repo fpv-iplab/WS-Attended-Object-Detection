@@ -22,3 +22,12 @@ The script that through the sliding window approach obtains segmentation masks w
 Contains:  
 The script used to make the changes and finetuning to the previously trained ResNet-18 network. The loss function present is the kullback-leibler divergence loss.
 The script that allows you to transform probability distributions into segmentation masks and calculate mAPs
+
+
+## Requirements
+
+Linux or macOS with Python ≥ 3.6
+PyTorch ≥ 1.8 and torchvision that matches the PyTorch installation. Install them together at pytorch.org to make sure of this
+OpenCV is optional but needed by demo and visualization
+
+This tool use Detectron2. Please see <a href="https://github.com/facebookresearch/detectron2">installation instructions </a>.
