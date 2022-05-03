@@ -34,15 +34,11 @@ This tool use Detectron2. Please see <a href="https://github.com/facebookresearc
 ## Cite Weakly Supervised Attended Object Detection Using Gaze
 
 ```
-@misc{https://doi.org/10.48550/arxiv.2204.07090,
-  doi = {10.48550/ARXIV.2204.07090},
-  url = {https://arxiv.org/abs/2204.07090},
-  author = {Mazzamuto, Michele and Ragusa, Francesco and Furnari, Antonino and Signorello, Giovanni and Farinella, Giovanni Maria},
-  keywords = {Computer Vision and Pattern Recognition (cs.CV), FOS: Computer and information sciences, FOS: Computer and information sciences},
+@inproceedings{ragusa2021meccano,
   title = {Weakly Supervised Attended Object Detection Using Gaze Data as Annotations},
-  publisher = {arXiv},
+  author = {Michele Mazzamuto and Francesco Ragusa and Antonino Furnari and Giovanni Signorello and Giovanni Maria Farinella},
   year = {2022},
-  copyright = {arXiv.org perpetual, non-exclusive license}
+  booktitle = {Image Analysis and Processing - ICIAP 2021 - May 23-27 2022},
 }
 
 ```
