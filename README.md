@@ -4,9 +4,9 @@ This is the official repository of the paper Weakly Supervised Attended Object D
 <b>Paper link: https://arxiv.org/abs/2204.07090</b> <br />
 <b>Site link: https://iplab.dmi.unict.it/WS_OBJ_DET/</b> <br />
 
-
+<center>
 ![alt text](./full_metod.gif)
-
+</center>
 ## (DIR) Detection(Fully-Supervised)
 Contains:
 The scripts used for training the Detectron 2-based network.
@@ -31,3 +31,15 @@ The script that allows you to transform probability distributions into segmentat
 <li>OpenCV is optional but needed by demo and visualization</li>
 </ul>
 This tool use Detectron2. Please see <a href="https://github.com/facebookresearch/detectron2">installation instructions </a>.
+
+## Cite Weakly Supervised Attended Object Detection Using Gaze
+
+```
+@inproceedings{ragusa2021meccano,
+  title = {The MECCANO Dataset: Understanding Human-Object Interactions from Egocentric Videos in an Industrial-like Domain},
+  author = {Francesco Ragusa and Antonino Furnari and Salvatore Livatino and Giovanni Maria Farinella},
+  year = {2021},
+  eprint = {2010.05654},
+  booktitle = {IEEE Winter Conference on Application of Computer Vision (WACV)}
+}
+```
