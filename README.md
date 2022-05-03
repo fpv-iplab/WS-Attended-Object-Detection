@@ -6,6 +6,15 @@ This is the official repository of the paper Weakly Supervised Attended Object D
 
 ![alt text](./full_metod.gif)
 
+## Requirements
+<ul>
+<li>Linux or macOS with Python ≥ 3.6</li>
+<li>PyTorch ≥ 1.8 and torchvision that matches the PyTorch installation. Install them together at pytorch.org to make sure of this</li>
+<li>OpenCV is optional but needed by demo and visualization</li>
+</ul>
+This tool use Detectron2. Please see <a href="https://github.com/facebookresearch/detectron2">installation instructions </a>.
+
+
 ## (DIR) Detection(Fully-Supervised)
 Contains:
 The scripts used for training the Detectron 2-based network.
@@ -23,13 +32,6 @@ The script used to make the changes and finetuning to the previously trained Res
 The script that allows you to transform probability distributions into segmentation masks and calculate mAPs
 
 
-## Requirements
-<ul>
-<li>Linux or macOS with Python ≥ 3.6</li>
-<li>PyTorch ≥ 1.8 and torchvision that matches the PyTorch installation. Install them together at pytorch.org to make sure of this</li>
-<li>OpenCV is optional but needed by demo and visualization</li>
-</ul>
-This tool use Detectron2. Please see <a href="https://github.com/facebookresearch/detectron2">installation instructions </a>.
 
 ## Cite Weakly Supervised Attended Object Detection Using Gaze
 
