@@ -35,11 +35,15 @@ This tool use Detectron2. Please see <a href="https://github.com/facebookresearc
 ## Cite Weakly Supervised Attended Object Detection Using Gaze
 
 ```
-@inproceedings{ragusa2021meccano,
-  title = {The MECCANO Dataset: Understanding Human-Object Interactions from Egocentric Videos in an Industrial-like Domain},
-  author = {Francesco Ragusa and Antonino Furnari and Salvatore Livatino and Giovanni Maria Farinella},
-  year = {2021},
-  eprint = {2010.05654},
-  booktitle = {IEEE Winter Conference on Application of Computer Vision (WACV)}
+@misc{https://doi.org/10.48550/arxiv.2204.07090,
+  doi = {10.48550/ARXIV.2204.07090},
+  url = {https://arxiv.org/abs/2204.07090},
+  author = {Mazzamuto, Michele and Ragusa, Francesco and Furnari, Antonino and Signorello, Giovanni and Farinella, Giovanni Maria},
+  keywords = {Computer Vision and Pattern Recognition (cs.CV), FOS: Computer and information sciences, FOS: Computer and information sciences},
+  title = {Weakly Supervised Attended Object Detection Using Gaze Data as Annotations},
+  publisher = {arXiv},
+  year = {2022},
+  copyright = {arXiv.org perpetual, non-exclusive license}
 }
+
 ```
