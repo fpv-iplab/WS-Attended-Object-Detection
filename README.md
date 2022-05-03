@@ -3,9 +3,9 @@ This is the official repository of the paper Weakly Supervised Attended Object D
 
 <b>Project Web Page: https://iplab.dmi.unict.it/WS_OBJ_DET/</b> <br />
 
-<center>
+
 ![alt text](./full_metod.gif)
-</center>
+
 ## (DIR) Detection(Fully-Supervised)
 Contains:
 The scripts used for training the Detectron 2-based network.
