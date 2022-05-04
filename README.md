@@ -36,7 +36,7 @@ The script that allows you to transform probability distributions into segmentat
 ## Cite Weakly Supervised Attended Object Detection Using Gaze
 
 ```
-@inproceedings{ragusa2021meccano,
+@inproceedings{mazzamuto21wlsgaze,
   title = {Weakly Supervised Attended Object Detection Using Gaze Data as Annotations},
   author = {Michele Mazzamuto and Francesco Ragusa and Antonino Furnari and Giovanni Signorello and Giovanni Maria Farinella},
   year = {2022},
