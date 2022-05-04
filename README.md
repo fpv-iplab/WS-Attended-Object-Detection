@@ -39,8 +39,8 @@ The script that allows you to transform probability distributions into segmentat
 @inproceedings{mazzamuto21wlsgaze,
   title = {Weakly Supervised Attended Object Detection Using Gaze Data as Annotations},
   author = {Michele Mazzamuto and Francesco Ragusa and Antonino Furnari and Giovanni Signorello and Giovanni Maria Farinella},
-  year = {2022},
-  booktitle = {Image Analysis and Processing - ICIAP 2021 - May 23-27 2022},
+  year = {2021}
+  booktitle = {International Conference on Image Analysis and Processing (ICIAP), May 23-27 2022},
 }
 
 ```
